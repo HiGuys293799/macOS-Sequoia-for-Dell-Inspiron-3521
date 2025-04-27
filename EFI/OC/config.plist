@@ -64,6 +64,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>SSDT-USBX.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-USBX.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>SSDT-XOSI.aml</string>
 				<key>Enabled</key>
 				<true/>
@@ -81,21 +89,21 @@
 				<key>BaseSkip</key>
 				<integer>0</integer>
 				<key>Comment</key>
-				<string>HPET _CRS to XCRS Rename</string>
+				<string>Remove conditional ACPI scope declaration</string>
 				<key>Count</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>BV9DUlM=</data>
+				<data>oAAAAJKTUENIQQA=</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>/wAAAP////////8=</data>
 				<key>OemTableId</key>
 				<data></data>
 				<key>Replace</key>
-				<data>BVhDUlM=</data>
+				<data>o6Ojo6Ojo6Ojo6M=</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -103,127 +111,7 @@
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
-			</dict>
-			<dict>
-				<key>Base</key>
-				<string></string>
-				<key>BaseSkip</key>
-				<integer>0</integer>
-				<key>Comment</key>
-				<string>HPET _STA to XSTA Rename</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>J19TVEE=</data>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>OemTableId</key>
-				<data></data>
-				<key>Replace</key>
-				<data>J1hTVEE=</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data></data>
-			</dict>
-			<dict>
-				<key>Base</key>
-				<string></string>
-				<key>BaseSkip</key>
-				<integer>0</integer>
-				<key>Comment</key>
-				<string>IPIC IRQ 2 Patch</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>IgQAeQA=</data>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>OemTableId</key>
-				<data></data>
-				<key>Replace</key>
-				<data>IgAAeQA=</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data></data>
-			</dict>
-			<dict>
-				<key>Base</key>
-				<string></string>
-				<key>BaseSkip</key>
-				<integer>0</integer>
-				<key>Comment</key>
-				<string>RTC IRQ 8 Patch</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>IgABeQA=</data>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>OemTableId</key>
-				<data></data>
-				<key>Replace</key>
-				<data>IgAAeQA=</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data></data>
-			</dict>
-			<dict>
-				<key>Base</key>
-				<string></string>
-				<key>BaseSkip</key>
-				<integer>0</integer>
-				<key>Comment</key>
-				<string>TIMR IRQ 0 Patch</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>IgEAeQA=</data>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>OemTableId</key>
-				<data></data>
-				<key>Replace</key>
-				<data>IgAAeQA=</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data></data>
+				<data>RFNEVA==</data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -255,6 +143,156 @@
 				<key>TableSignature</key>
 				<data></data>
 			</dict>
+			<dict>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
+				<key>Comment</key>
+				<string>HPET _STA to XSTA Rename</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>J19TVEE=</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data>AAAAAAAAAAA=</data>
+				<key>Replace</key>
+				<data>J1hTVEE=</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>AAAAAA==</data>
+			</dict>
+			<dict>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
+				<key>Comment</key>
+				<string>HPET _CRS to XCRS Rename</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>BV9DUlM=</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data>AAAAAAAAAAA=</data>
+				<key>Replace</key>
+				<data>BVhDUlM=</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>AAAAAA==</data>
+			</dict>
+			<dict>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
+				<key>Comment</key>
+				<string>IPIC IRQ 2 Patch</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>IgQAeQA=</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data>AAAAAAAAAAA=</data>
+				<key>Replace</key>
+				<data>IgAAeQA=</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>AAAAAA==</data>
+			</dict>
+			<dict>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
+				<key>Comment</key>
+				<string>RTC IRQ 8 Patch</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>IgABeQA=</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data>AAAAAAAAAAA=</data>
+				<key>Replace</key>
+				<data>IgAAeQA=</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>AAAAAA==</data>
+			</dict>
+			<dict>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
+				<key>Comment</key>
+				<string>TIMR IRQ 0 Patch</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>IgEAeQA=</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data>AAAAAAAAAAA=</data>
+				<key>Replace</key>
+				<data>IgAAeQA=</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>AAAAAA==</data>
+			</dict>
 		</array>
 		<key>Quirks</key>
 		<dict>
@@ -269,7 +307,7 @@
 			<key>ResetLogoStatus</key>
 			<true/>
 			<key>SyncTableIds</key>
-			<false/>
+			<true/>
 		</dict>
 	</dict>
 	<key>Booter</key>
@@ -284,6 +322,8 @@
 			<false/>
 			<key>AvoidRuntimeDefrag</key>
 			<true/>
+			<key>ClearTaskSwitchBit</key>
+			<false/>
 			<key>DevirtualiseMmio</key>
 			<false/>
 			<key>DisableSingleUser</key>
@@ -301,11 +341,11 @@
 			<key>ForceBooterSignature</key>
 			<false/>
 			<key>ForceExitBootServices</key>
-			<false/>
+			<true/>
 			<key>ProtectMemoryRegions</key>
 			<false/>
 			<key>ProtectSecureBoot</key>
-			<false/>
+			<true/>
 			<key>ProtectUefiServices</key>
 			<false/>
 			<key>ProvideCustomSlide</key>
@@ -315,13 +355,13 @@
 			<key>RebuildAppleMemoryMap</key>
 			<false/>
 			<key>ResizeAppleGpuBars</key>
-			<integer>0</integer>
+			<integer>-1</integer>
 			<key>SetupVirtualMap</key>
 			<true/>
 			<key>SignalAppleOS</key>
 			<false/>
 			<key>SyncRuntimePermissions</key>
-			<false/>
+			<true/>
 		</dict>
 	</dict>
 	<key>DeviceProperties</key>
@@ -332,15 +372,11 @@
 			<dict>
 				<key>IOName</key>
 				<string>pci168c,24</string>
-				<key>compatible</key>
-				<string>pci168c,24</string>
-				<key>device-id</key>
-				<data>JAAAAA==</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
 			<dict>
 				<key>layout-id</key>
-				<integer>4</integer>
+				<integer>3</integer>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
@@ -353,21 +389,37 @@
 	</dict>
 	<key>Kernel</key>
 	<dict>
-		<key>Patch</key>
-		<string></string>
 		<key>Add</key>
 		<array>
 			<dict>
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>AirPortAtheros40.kext</string>
+				<string>Lilu.kext</string>
 				<key>Comment</key>
-				<string>AirPortAtheros40.kext</string>
+				<string>V1.7.0 | Lilu.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/AirPortAtheros40</string>
+				<string>Contents/MacOS/Lilu</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>VirtualSMC.kext</string>
+				<key>Comment</key>
+				<string>V1.3.6</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/VirtualSMC</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -381,7 +433,7 @@
 				<key>BundlePath</key>
 				<string>AppleIntelCPUPowerManagement.kext</string>
 				<key>Comment</key>
-				<string>AppleIntelCPUPowerManagement.kext</string>
+				<string>V222.0.0 | AppleIntelCPUPowerManagement.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -399,7 +451,7 @@
 				<key>BundlePath</key>
 				<string>AppleIntelCPUPowerManagementClient.kext</string>
 				<key>Comment</key>
-				<string>AppleIntelCPUPowerManagementClient.kext</string>
+				<string>V222.0.0 | AppleIntelCPUPowerManagementClient.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -415,9 +467,27 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
+				<string>ATH9KInjector.kext</string>
+				<key>Comment</key>
+				<string>V1.2.6 | ATH9KInjector.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
 				<string>corecaptureElCap.kext</string>
 				<key>Comment</key>
-				<string>corecaptureElCap.kext</string>
+				<string>V1.0.4 | corecaptureElCap.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -435,7 +505,7 @@
 				<key>BundlePath</key>
 				<string>IO80211ElCap.kext</string>
 				<key>Comment</key>
-				<string>IO80211ElCap.kext</string>
+				<string>V1110.26 | IO80211ElCap.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -451,27 +521,9 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>Lilu.kext</string>
-				<key>Comment</key>
-				<string>Lilu.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/Lilu</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
 				<string>RealtekRTL8100.kext</string>
 				<key>Comment</key>
-				<string>RealtekRTL8100.kext</string>
+				<string>V2.0.1 | RealtekRTL8100.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -489,7 +541,7 @@
 				<key>BundlePath</key>
 				<string>RestrictEvents.kext</string>
 				<key>Comment</key>
-				<string>RestrictEvents.kext</string>
+				<string>V1.1.5 | RestrictEvents.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -505,9 +557,27 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>USBMap.kext</string>
+				<string>USBToolBox.kext</string>
 				<key>Comment</key>
-				<string>USBMap.kext</string>
+				<string>V1.1.1 | USBToolBox.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/USBToolBox</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>UTBMap.kext</string>
+				<key>Comment</key>
+				<string>V1.1 | UTBMap.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -523,27 +593,9 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>VirtualSMC.kext</string>
-				<key>Comment</key>
-				<string>VirtualSMC.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/VirtualSMC</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext</string>
 				<key>Comment</key>
-				<string>VoodooPS2Controller.kext</string>
+				<string>V2.3.7</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -561,7 +613,7 @@
 				<key>BundlePath</key>
 				<string>WhateverGreen.kext</string>
 				<key>Comment</key>
-				<string>WhateverGreen.kext</string>
+				<string>V1.6.9 | WhateverGreen.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -579,7 +631,7 @@
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooInput.kext</string>
 				<key>Comment</key>
-				<string>VoodooInput.kext</string>
+				<string>V1.1.6</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -597,7 +649,7 @@
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext</string>
 				<key>Comment</key>
-				<string>VoodooPS2Keyboard.kext</string>
+				<string>V2.3.7</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -615,7 +667,7 @@
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Mouse.kext</string>
 				<key>Comment</key>
-				<string>VoodooPS2Mouse.kext</string>
+				<string>V2.3.7</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -633,7 +685,7 @@
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.kext</string>
 				<key>Comment</key>
-				<string>VoodooPS2Trackpad.kext</string>
+				<string>V2.3.7</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -649,9 +701,27 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
+				<string>IO80211ElCap.kext/Contents/PlugIns/AirPortAtheros40.kext</string>
+				<key>Comment</key>
+				<string>V700.74.5 | AirPortAtheros40.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/AirPortAtheros40</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
 				<string>AMFIPass.kext</string>
 				<key>Comment</key>
-				<string>AMFIPass.kext</string>
+				<string>V1.4.1 | AMFIPass.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -669,7 +739,7 @@
 				<key>BundlePath</key>
 				<string>AppleALC.kext</string>
 				<key>Comment</key>
-				<string>AppleALC.kext</string>
+				<string>V1.9.4 | AppleALC.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -685,9 +755,81 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
+				<string>AutoPkgInstaller.kext</string>
+				<key>Comment</key>
+				<string>V1.0.4 | AutoPkgInstaller.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/AutoPkgInstaller</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>BrightnessKeys.kext</string>
+				<key>Comment</key>
+				<string>V1.0.3 | BrightnessKeys.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/BrightnessKeys</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>CPUFriend.kext</string>
+				<key>Comment</key>
+				<string>V1.2.9 | CPUFriend.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/CPUFriend</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>CPUFriendDataProvider.kext</string>
+				<key>Comment</key>
+				<string>V1.0.1 | CPUFriendDataProvider.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
 				<string>CryptexFixup.kext</string>
 				<key>Comment</key>
-				<string>CryptexFixup.kext</string>
+				<string>V1.0.4 | CryptexFixup.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -705,7 +847,7 @@
 				<key>BundlePath</key>
 				<string>ECEnabler.kext</string>
 				<key>Comment</key>
-				<string>ECEnabler.kext</string>
+				<string>V1.0.5 | ECEnabler.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -721,9 +863,27 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
+				<string>HibernationFixup.kext</string>
+				<key>Comment</key>
+				<string>V1.5.3 | HibernationFixup.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/HibernationFixup</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
 				<string>SMCBatteryManager.kext</string>
 				<key>Comment</key>
-				<string>SMCBatteryManager.kext</string>
+				<string>V1.3.6 | SMCBatteryManager.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -741,7 +901,7 @@
 				<key>BundlePath</key>
 				<string>SMCDellSensors.kext</string>
 				<key>Comment</key>
-				<string>SMCDellSensors.kext</string>
+				<string>V1.3.6 | SMCDellSensors.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -759,7 +919,7 @@
 				<key>BundlePath</key>
 				<string>SMCLightSensor.kext</string>
 				<key>Comment</key>
-				<string>SMCLightSensor.kext</string>
+				<string>V1.3.6 | SMCLightSensor.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -777,7 +937,7 @@
 				<key>BundlePath</key>
 				<string>SMCProcessor.kext</string>
 				<key>Comment</key>
-				<string>SMCProcessor.kext</string>
+				<string>V1.3.6 | SMCProcessor.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -795,7 +955,7 @@
 				<key>BundlePath</key>
 				<string>SMCSuperIO.kext</string>
 				<key>Comment</key>
-				<string>SMCSuperIO.kext</string>
+				<string>V1.3.6 | SMCSuperIO.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -825,6 +985,849 @@
 		</dict>
 		<key>Force</key>
 		<array/>
+		<key>Patch</key>
+		<array>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string></string>
+				<key>Comment</key>
+				<string>(1) start</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>ZomDEAQAAA==</data>
+				<key>Identifier</key>
+				<string>com.apple.driver.AirPort.Atheros40</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>18.0.0</string>
+				<key>Replace</key>
+				<data>xoMQBAAAMA==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string></string>
+				<key>Comment</key>
+				<string>(2) ___ath_attach</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>D7f4g/8w</data>
+				<key>Identifier</key>
+				<string>com.apple.driver.AirPort.Atheros40</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>18.0.0</string>
+				<key>Replace</key>
+				<data>D7f4g/8A</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string></string>
+				<key>Comment</key>
+				<string>(3)_ar9300ReadRevisions</string>
+				<key>Count</key>
+				<integer>4</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>wekMgeHA/w8A</data>
+				<key>Identifier</key>
+				<string>com.apple.driver.AirPort.Atheros40</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>18.0.0</string>
+				<key>Replace</key>
+				<data>wekMkLnAAQAA</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string></string>
+				<key>Comment</key>
+				<string>(4)_ar9300ReadRevisions #1</string>
+				<key>Count</key>
+				<integer>2</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>wegMJcD/DwA=</data>
+				<key>Identifier</key>
+				<string>com.apple.driver.AirPort.Atheros40</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>18.0.0</string>
+				<key>Replace</key>
+				<data>wegMuMABAAA=</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string></string>
+				<key>Comment</key>
+				<string>(5)_ar9300ReadRevisions #2</string>
+				<key>Count</key>
+				<integer>5</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>wekIg+EP</data>
+				<key>Identifier</key>
+				<string>com.apple.driver.AirPort.Atheros40</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>18.0.0</string>
+				<key>Replace</key>
+				<data>kLkCAAAA</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string></string>
+				<key>Comment</key>
+				<string>(6)_ar9300ReadRevisions #3</string>
+				<key>Count</key>
+				<integer>3</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>wegIg+AP</data>
+				<key>Identifier</key>
+				<string>com.apple.driver.AirPort.Atheros40</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>18.0.0</string>
+				<key>Replace</key>
+				<data>kLkCAAAA</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string></string>
+				<key>Comment</key>
+				<string>(7) _ar9300RxGainIndexGet</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>D7aHALIAAIPgDw==</data>
+				<key>Identifier</key>
+				<string>com.apple.driver.AirPort.Atheros40</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>18.0.0</string>
+				<key>Replace</key>
+				<data>D7aHALIAAJAxwA==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string></string>
+				<key>Comment</key>
+				<string>(8) _ar9300TxGainIndexGet</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>D7aHALIAAMHoBA==</data>
+				<key>Identifier</key>
+				<string>com.apple.driver.AirPort.Atheros40</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>18.0.0</string>
+				<key>Replace</key>
+				<data>D7aHALIAAJAxwA==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string></string>
+				<key>Comment</key>
+				<string>(9) _ar9300FillCapabilityInfo</string>
+				<key>Count</key>
+				<integer>4</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>ZomDFgkAAA==</data>
+				<key>Identifier</key>
+				<string>com.apple.driver.AirPort.Atheros40</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>18.0.0</string>
+				<key>Replace</key>
+				<data>xoMWCQAAAA==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string></string>
+				<key>Comment</key>
+				<string>(10) _ar9300FillCapabilityInfo #2</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>SLkAAAAAAGAQAA==</data>
+				<key>Identifier</key>
+				<string>com.apple.driver.AirPort.Atheros40</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>18.0.0</string>
+				<key>Replace</key>
+				<data>SLkAAAAAACAQAA==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string></string>
+				<key>Comment</key>
+				<string>AR9565</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>OTM4MA==</data>
+				<key>Identifier</key>
+				<string>com.apple.driver.AirPort.Atheros40</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>18.0.0</string>
+				<key>Replace</key>
+				<data>OTU2NQ==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string></string>
+				<key>Comment</key>
+				<string>(11) _ar9300SetRxFilter</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>jZAABAAA</data>
+				<key>Identifier</key>
+				<string>com.apple.driver.AirPort.Atheros40</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>18.0.0</string>
+				<key>Replace</key>
+				<data>jZAABAgA</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string></string>
+				<key>Comment</key>
+				<string>(12) _ar9300Reset</string>
+				<key>Count</key>
+				<integer>2</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>ugcAAABMief/0A==</data>
+				<key>Identifier</key>
+				<string>com.apple.driver.AirPort.Atheros40</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>18.0.0</string>
+				<key>Replace</key>
+				<data>ugEAAABMief/0A==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string></string>
+				<key>Comment</key>
+				<string>(13) _ar9300Reset #2</string>
+				<key>Count</key>
+				<integer>2</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>ugcAAABMiedB/1UA</data>
+				<key>Identifier</key>
+				<string>com.apple.driver.AirPort.Atheros40</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>18.0.0</string>
+				<key>Replace</key>
+				<data>ugEAAABMiedB/1UA</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string></string>
+				<key>Comment</key>
+				<string>(14) _ar9300 #1</string>
+				<key>Count</key>
+				<integer>2</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>vohiAQA=</data>
+				<key>Identifier</key>
+				<string>com.apple.driver.AirPort.Atheros40</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>18.0.0</string>
+				<key>Replace</key>
+				<data>voxiAQA=</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string></string>
+				<key>Comment</key>
+				<string>(15) _ar9300 #2</string>
+				<key>Count</key>
+				<integer>4</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>vpBiAQA=</data>
+				<key>Identifier</key>
+				<string>com.apple.driver.AirPort.Atheros40</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>18.0.0</string>
+				<key>Replace</key>
+				<data>vpRiAQA=</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string>_ar9300_osprey_2p0_mac_core</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data></data>
+				<key>Identifier</key>
+				<string>com.apple.driver.AirPort.Atheros40</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>18.0.0</string>
+				<key>Replace</key>
+				<data>CAAAAAAAAAAwAAAAhQAKADQAAAAFAAAAQAAAAAAAAABEAAAAAAAAAEgAAAAIAAAATAAAABAAAABQAAAAAAAAAEAQAAAP/C8ARBAAAA/8LwBIEAAAD/wvAEwQAAAP/C8AUBAAAA/8LwBUEAAAD/wvAFgQAAAP/C8AXBAAAA/8LwBgEAAAD/wvAGQQAAAP/C8A8BAAAAABAABwEgAAAAAAALASAAAAAAAA8BIAAAAAAAA8FAAAAAAAAHwUAAAAAAAAEBgAAAMAAA8AgAAAAAAAAASAAAAAAAAACIAAAAAAAAAMgAAAAAAAABiAAAAAAAAAIIAAAAAAAAA4gAAAAAAAADyAAAAAAAAAQIAAAAAAAABEgAAAAAAAAEiAAAAAAAAAVIAAAAAAAABYgAAAAAAAAFyAAACPxw8AYIAAAA8AAABkgAAAAAAAAHCAAAAQAwAAdIAAACAAAAB4gAAAAAAAAJyAAAAPAAAAoIAAAAAAAACkgAAAAAD/AqiAAAAFBgcOrIAAAA0AAACwgAAAAAAAALSAAAAAAAAAuIAAAAAAAAC8gAAAAAAAAMCAAAAAAIAqxIAAAGgBkAbIgAAAIByIE8yAAAAAAPQB0IAAAAAlJQDUgAAABQCwANiAAAACAEAA3IAAAAAAAADggAAA/////+SAAAD//wAA6IAAAD8/Pz/sgAAAAAAAAPCAAAAAAAAA9IAAAAAAAAD8gAAAAAACAACBAAAAAAAACIEAAFIAAAAMgQAAAAAAABCBAAAAAAAAFIEAAP8HAAAYgQAAqgAAAByBAAAQMgAAJIEAAAAAAAAogQAAAAAAACyBAAAAAAAAMIEAAAAAAAA0gQAAAAAAADiBAAAAAAAAPIEAAP//AABEgQAA/////2iBAAAAAAAAbIEAAAAAAABwgQAAAGJIGHSBAAAQIjMzeIEAAAAAAAB8gQAAAAACAMSBAAAQIjMzyIEAAAAAAADMgQAAAAAAANSBAAAAAAAA7IEAAAAAAADwgQAAAAAAAPSBAAAAAAAA+IEAAAAAAAD8gQAAAAAAAECCAAAAABAARIIAACT0EABIggAAAAgAAEyCAABI6AEAUIIAAAAAAABUggAAAAAAAFiCAAAAAAAAXIIAAAAAAEBgggAAIgkIAGSCAAAQAECdaIIAAP////9sggAA//8AAHCCAAAAAAAAdIIAAAAAAEB4ggAAgEE+AHyCAAAEAAAAhIIAACwAAACIggAALAAAAIyCAAD/AAAAlIIAAAAAAACYggAAAAAAAJyCAAAAAAAAAIMAAEABAAAUgwAAAAAAAByDAAANAQAAKIMAAAAAAAAsgwAAHwAAADCDAAACAwAANIMAAAAHAAA4gwAAAAD//zyDAAAAAEACQIMAAP8HAQBEgwAAWxBIqkiDAAAAAI8AXIMAAAAAAABggwAA/////2SDAAD/////aIMAAAAAAABwgwAAAAAAAHSDAAD/AAAAeIMAAAAAAAB8gwAAAAAAAICDAAD/////hIMAAP////+QgwAA/////5SDAAD/////mIMAAAAAAACcgwAAAAAAAKSDAAAU+gAAqIMAAAAMDwCsgwAAECIzM7CDAAAQIjMztIMAABAiMzO4gwAAECIzM7yDAAAAAAAAwIMAAAAAAADEgwAAAAAAAMiDAAAAAAAAzIMAAAACAADQgwAA/wEDgAAAAAAAAAAAAAAAAAAAAAA=</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string>_ar9300_osprey_2p0_mac_postamble</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data></data>
+				<key>Identifier</key>
+				<string>com.apple.driver.AirPort.Atheros40</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>18.0.0</string>
+				<key>Replace</key>
+				<data>MBAAADACAABgBAAAwAIAAGABAABwEAAAaAEAANACAAAYAwAAjAEAALAQAABgDgAAwBwAAHB8AAA4PgAAFIAAAOgD6APQB9AHABaAEAALQAgcgAAAJ4CNEk+AjRJXAOASKwDgEiCBAAAASPAIAEjwCBBI8AgQSPAI0IEAABAyAAAQMgAACjIAAAoyAAAYgwAAgD4AAAB9AACAaAAAQDQAAA==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string>_ar9300_osprey_2p0_baseband_core</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data></data>
+				<key>Identifier</key>
+				<string>com.apple.driver.AirPort.Atheros40</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>18.0.0</string>
+				<key>Replace</key>
+				<data>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</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string>_ar9300_osprey_2p0_baseband_postamble</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data></data>
+				<key>Identifier</key>
+				<string>com.apple.driver.AirPort.Atheros40</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>18.0.0</string>
+				<key>Replace</key>
+				<data>EJgAAAWACtAFgArQBYAK0AmACtAgmAAALgJqIC4CaiAuAWogrgFqICSYAADQQMZa0EDGWtBAxlraQMZjKJgAAIEwkAaBMJAGgTiQBoE8FAksmAAA1KbuBdSm7gXUpu4F1KbuBTCYAACcBQAAnAUAAJwFAACcBQAAAJwAAMQAAADEAAAAxAAAAMQAAAAAngAAGhFyAxoRcgOgFnIDoBZyAwSeAAAgIIAAICCAACAgFAAgIBQADJ4AAOIAQGziAEBt4gBAbeIAQGwQngAALo3Ifi6NyH4uTch+Lk3IfhSeAABeXbk3XmC5N15geTNeXXkzGJ4AAAAAAAAAAAAAAAAAAAAAAAAcngAAnM8BAJzPAQCcHwIAnB8CACCeAAC1AwAAtQMAAKQDAACkAwAALJ4AABwAAAAcAAAAIQAAACEAAAA8ngAAImKUzyJilM8gYpTPIGKUz0SeAAAnHjL+Jx4y/iceKf4nHin+SJ4AABogMFAaIDBQEiAwUBIgMFDInwAAAPADAADwAwAAoAEAAKABAASiAADAjzEHxI8xB8SPMQfAjzEHCKIAAAQBAAAEAQAABAAAAAQAAAAsogAAL2oCASdqAgEvagIBL2oCATCiAAAKQAAAFEAAABZAAAALQAAANKIAAP8PAAD/DwAQ/w8AEP8PAAA4ogAAGBC4/xgQuP8YELj/GBC4/1CiAAAAAAAAAAAAABACAAAIAQAAVKIAANAHAACgDwAAMBEAAJgIAABYogAAAgACAgIAAgICAAICAgACAlyiAAAODgABDg4AAQ4OAAEODgABYKIAAAEVAgoBFQIKARUCOgEVAjpkogAADg4AAA4OAAAODgAADg4AAICiAAAHAAAABwAAAAsAAAALAAAAhKIAAAAAAAAAAAAAUAEAAFABAACIogAAEAUQABAFEAAQBRAAEAUQAIyiAABRFQIAURUCAFEVAgBRFQIAxKIAABiNBQAYjQUAGI0FABiNBQDQogAAghkHAIIZBwCCGQcAghkHANiiAAA7qJl5O6iZeTuomXk7qJl5WKMAAAAAAAAAAAAAAAAAAAAAAAAErgAAAACAAAAAgAAAAIAAAACAABiuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string>_ar9300_osprey_2p0_radio_core</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data></data>
+				<key>Identifier</key>
+				<string>com.apple.driver.AirPort.Atheros40</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>18.0.0</string>
+				<key>Replace</key>
+				<data>AGABALZt2zYEYAEAQNu2bQhgAQAAAPBzDGABAAAAAAAQYAEAATaCbUBgAQD4/4B/TGABAE/gmRxQYAEAbNu2bVhgAQAAACBsgGABAAAADACEYAEAjARomohgAQAURSFUjGABAAsEAxKQYAEAkGSSJJhgAQAwM4vSoGABAP6PEAqkYAEAkcQvgahgAQAAgDxCtGABAAAAAJK4YAEA3N2FArxgAQCIiJACwGABANC2bQDEYAEAYNvWbchgAQBs27ZtzGABALDB5m0AYQEABL7/PwRhAQAAAPj/CGEBAAAEIAAQYQEAAAAAAERhAQCAQAgCSGEBAMCAAACAYgEAAQAKBYRiAQBAFIQ9iGIBAAAAAACMYgEAAAAA45BiAQCAQAChlGIBACgAAECYYgEAACmqVUBjAQB6ghwTRGMBAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string>_ar9300_osprey_2p0_radio_postamble</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data></data>
+				<key>Identifier</key>
+				<string>com.apple.driver.AirPort.Atheros40</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>18.0.0</string>
+				<key>Replace</key>
+				<data>nGABACTljgsk5Y4LJOWOCyTljgusYAEACGxkpAhsZKQIbGSkCGxkpLBgAQBwf9YBcH/WAXB/1gFwf9YBDGEBAAAAAEAAAABAAAAAQAAAAEBAYQEACECAEAhAgBAIQIBQCECAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string>_ar9300_osprey_2p0_soc_preamble</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data></data>
+				<key>Identifier</key>
+				<string>com.apple.driver.AirPort.Atheros40</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>18.0.0</string>
+				<key>Replace</key>
+				<data>pEAAAMnJoAAQcAAAMyIAACBwAAAAAAAANHAAAAIAAAA4cAAAwgQAAAAAAAAAAAAA</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string>_ar9300_osprey_2p0_soc_postamble</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data></data>
+				<key>Identifier</key>
+				<string>com.apple.driver.AirPort.Atheros40</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>18.0.0</string>
+				<key>Replace</key>
+				<data>EHAAADMiAAAzIgAAMyIAADMiAAAAAAAAAAAAAAAAAAA=</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string>_ar9300Common_rx_gain_table_osprey_2p0</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data></data>
+				<key>Identifier</key>
+				<string>com.apple.driver.AirPort.Atheros40</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>18.0.0</string>
+				<key>Replace</key>
+				<data>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</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string>_ar9300Modes_lowest_ob_db_tx_gain_table_osprey_2p0</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data></data>
+				<key>Identifier</key>
+				<string>com.apple.driver.AirPort.Atheros40</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>18.0.0</string>
+				<key>Replace</key>
+				<data>3KIAAICTCvyAkwr8Ulur/VJbq/3gogAAAOzs/wDs7P+EnDP9hJwz/eSiAAAAAA/8AAAP/ADgw/4A4MP+6KIAAAAAEPwAABD8AAD8/wAA/P8QpAAA2VAAANlQAADfUAAA31AAAAClAAAgIgAAICIAAAAAAAAAAAAABKUAACMiAAYjIgAGAgAABAIAAAQIpQAAICICCyAiAgsEAAAIBAAACAylAAAjIgIQIyICEAACAAwAAgAMEKUAACAmAhUgJgIVAgIAEAICABAUpQAAIiYCGSImAhkABAATAAQAExilAAAiKAIcIigCHAIEABcCBAAXHKUAAEIoAiFCKAIhBAQAGwQEABsgpQAAQSwCJEEsAiQDBgAeAwYAHiSlAABCMAIpQjACKQIKACMCCgAjKKUAAEQwAi1EMAItBAoAJwQKACcspQAARDYCMUQ2AjEgCgAqIAoAKjClAABDVgI2Q1YCNiAOAC4gDgAuNKUAAERaAjpEWgI6Ig4AMiIOADI4pQAARV4CPUVeAj0kDgA2JA4ANjylAABKXgJDSl4CQ0AWADpAFgA6QKUAAGxeAkpsXgJKYBYAPmAWAD5EpQAAjl4CUI5eAlBhGABBYRgAQUilAACyXgJWsl4CVoEaAEWBGgBFTKUAALVeAly1XgJcgxoASYMaAElQpQAA9l4CYvZeAmKEHABMhBwATFSlAABWXwJlVl8CZeMcAE/jHABPWKUAAFZ/AmlWfwJp5RwAU+UcAFNcpQAAVp8CbVafAm3pHABX6RwAV2ClAABWnwRzVp8Ec+scAFvrHABbZKUAAFb/BHhW/wR48BwAYPAcAGBopQAAVv8EeFb/BHjxHABh8RwAYWylAABW/wR4Vv8EePIcAGLyHABicKUAAFb/BHhW/wR48xwAY/McAGN0pQAAVv8EeFb/BHj0HABk9BwAZHilAABW/wR4Vv8EePYfAGb2HwBmfKUAAFb/BHhW/wR49h8AZvYfAGYApgAAAAAAAAAAAAAAAAAAAAAAAASmAAAAAAAAAAAAAAAAAAAAAAAACKYAAAAAAAAAAAAAAAAAAAAAAAAMpgAAAECAAABAgAAAAAAAAAAAABCmAAABQoAAAUKAAAAAAAAAAAAAFKYAAAFCgAABQoAAAEBAAQBAQAEYpgAAAUKAAAFCgAABRUABAUVAARymAAABggACAYIAAgGFAAIBhQACIKYAAAMKwQIDCsECA8qAAgPKgAIkpgAABVKBBAVSgQQEC8ECBAvBAiimAAAG1IEFBtSBBQRLgQMES4EDLKYAAAfWgQUH1oEFBY4BBQWOAQUwpgAAB9aBBQfWgQUGlAEFBpQBBTSmAAAH1oEFB9aBBQaUAQUGlAEFOKYAAAfWgQUH1oEFBpQBBQaUAQU8pgAAB9aBBQfWgQUGlAEFBpQBBURgAQDkgm0F5IJtBeSCbQXkgm0FSGABAGCQtI1gkLSNYJC0jWCQtI1UYAEAAAC2bQAAtm0AALZtAAC2bQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string>_ar9300PciePhy_pll_on_clkreq_disable_L1_osprey_2p0</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data></data>
+				<key>Identifier</key>
+				<string>com.apple.driver.AirPort.Atheros40</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>18.0.0</string>
+				<key>Replace</key>
+				<data>AIwBAN4uIRgEjAEA2AEIAAiMAQAMeAMAAAAAAAAAAAA=</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string>_ar9300Modes_fast_clock_osprey_2p0</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data></data>
+				<key>Identifier</key>
+				<string>com.apple.driver.AirPort.Atheros40</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>18.0.0</string>
+				<key>Replace</key>
+				<data>MBAAAGgCAADQBAAAcBAAAIwBAAAYAwAAsBAAANAPAACgHwAAFIAAAEwETASYCJgIHIAAACvAjhRXwI4UGIMAAMBEAACAiQAAAJ4AACEYcgMhGHIDMKIAAAtAAAAWQAAAVKIAAJgIAAAwEQAAAAAAAA==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+		</array>
 		<key>Quirks</key>
 		<dict>
 			<key>AppleCpuPmCfgLock</key>
@@ -913,22 +1916,22 @@
 			<key>PickerMode</key>
 			<string>External</string>
 			<key>PickerVariant</key>
-			<string>Auto</string>
+			<string>Acidanthera\GoldenGate</string>
 			<key>PollAppleHotKeys</key>
 			<true/>
 			<key>ShowPicker</key>
-			<true/>
+			<false/>
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
 			<key>Timeout</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<key>Debug</key>
 		<dict>
 			<key>AppleDebug</key>
 			<false/>
 			<key>ApplePanic</key>
-			<false/>
+			<true/>
 			<key>DisableWatchDog</key>
 			<true/>
 			<key>DisplayDelay</key>
@@ -938,9 +1941,9 @@
 			<key>LogModules</key>
 			<string>*</string>
 			<key>SysReport</key>
-			<false/>
+			<true/>
 			<key>Target</key>
-			<integer>0</integer>
+			<integer>3</integer>
 		</dict>
 		<key>Entries</key>
 		<array/>
@@ -951,7 +1954,7 @@
 			<key>ApECID</key>
 			<integer>0</integer>
 			<key>AuthRestart</key>
-			<false/>
+			<true/>
 			<key>BlacklistAppleUpdate</key>
 			<true/>
 			<key>DmgLoading</key>
@@ -967,14 +1970,41 @@
 			<key>PasswordSalt</key>
 			<data></data>
 			<key>ScanPolicy</key>
-			<integer>0</integer>
+			<integer>31554819</integer>
 			<key>SecureBootModel</key>
-			<string>Disabled</string>
+			<string>j230k</string>
 			<key>Vault</key>
 			<string>Optional</string>
 		</dict>
 		<key>Serial</key>
 		<dict>
+			<key>Custom</key>
+			<dict>
+				<key>BaudRate</key>
+				<integer>115200</integer>
+				<key>ClockRate</key>
+				<integer>1843200</integer>
+				<key>DetectCable</key>
+				<false/>
+				<key>ExtendedTxFifoSize</key>
+				<integer>64</integer>
+				<key>FifoControl</key>
+				<integer>7</integer>
+				<key>LineControl</key>
+				<integer>3</integer>
+				<key>PciDeviceInfo</key>
+				<data>/w==</data>
+				<key>RegisterAccessWidth</key>
+				<integer>8</integer>
+				<key>RegisterBase</key>
+				<integer>1016</integer>
+				<key>RegisterStride</key>
+				<integer>1</integer>
+				<key>UseHardwareFlowControl</key>
+				<false/>
+				<key>UseMmio</key>
+				<false/>
+			</dict>
 			<key>Init</key>
 			<false/>
 			<key>Override</key>
@@ -997,7 +2027,7 @@
 				<key>OCLP-Settings</key>
 				<string>-allow_amfi</string>
 				<key>revblock</key>
-				<string>media</string>
+				<string>media,perfps</string>
 				<key>revpatch</key>
 				<string>sbvmm,f16c</string>
 				<key>rtc-blacklist</key>
@@ -1009,8 +2039,12 @@
 				<integer>0</integer>
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
+				<key>bluetoothExternalDongleFailed</key>
+				<data>AA==</data>
+				<key>bluetoothInternalControllerInfo</key>
+				<data>AAAAAAAAAAAAAAAAAAA=</data>
 				<key>boot-args</key>
-				<string>ipc_control_port_options=0</string>
+				<string>swd_panic=1 debug=0x100 keepsyms=1 ipc_control_port_options=0</string>
 				<key>csr-active-config</key>
 				<data>AwoAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -1088,23 +2122,23 @@
 			<key>AdviseFeatures</key>
 			<true/>
 			<key>MLB</key>
-			<string>C02810310J9JH4RFB</string>
+			<string></string>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
-			<data>70w9wKdz</data>
+			<data></data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>SystemProductName</key>
-			<string>MacBookPro15,2</string>
+			<string>MacBookAir9,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02WDTZLJHCC</string>
+			<string></string>
 			<key>SystemUUID</key>
-			<string>96FC9C4D-B6BF-43E6-8362-665B2CB4D04A</string>
+			<string></string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -1168,11 +2202,11 @@
 			<key>AudioCodec</key>
 			<integer>0</integer>
 			<key>AudioDevice</key>
-			<string>PciRoot(0x0)/Pci(0x1b,0x0)</string>
+			<string>PciRoot(0x0)/Pci(0x1B,0x0)</string>
 			<key>AudioOutMask</key>
-			<integer>1</integer>
+			<integer>-1</integer>
 			<key>AudioSupport</key>
-			<false/>
+			<true/>
 			<key>DisconnectHda</key>
 			<false/>
 			<key>MaximumGain</key>
@@ -1182,7 +2216,7 @@
 			<key>MinimumAudibleGain</key>
 			<integer>-55</integer>
 			<key>PlayChime</key>
-			<string>Auto</string>
+			<string>Enabled</string>
 			<key>ResetTrafficClass</key>
 			<false/>
 			<key>SetupDelay</key>
@@ -1196,6 +2230,18 @@
 				<key>Arguments</key>
 				<string></string>
 				<key>Comment</key>
+				<string>AudioDxe.efi</string>
+				<key>Enabled</key>
+				<true/>
+				<key>LoadEarly</key>
+				<false/>
+				<key>Path</key>
+				<string>AudioDxe.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
 				<string>HfsPlusLegacy.efi</string>
 				<key>Enabled</key>
 				<true/>
@@ -1232,6 +2278,30 @@
 				<key>Arguments</key>
 				<string></string>
 				<key>Comment</key>
+				<string>Ps2KeyboardDxe.efi</string>
+				<key>Enabled</key>
+				<true/>
+				<key>LoadEarly</key>
+				<false/>
+				<key>Path</key>
+				<string>Ps2KeyboardDxe.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string>Ps2MouseDxe.efi</string>
+				<key>Enabled</key>
+				<true/>
+				<key>LoadEarly</key>
+				<false/>
+				<key>Path</key>
+				<string>Ps2MouseDxe.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
 				<string>ResetNvramEntry.efi</string>
 				<key>Enabled</key>
 				<true/>
@@ -1244,13 +2314,13 @@
 				<key>Arguments</key>
 				<string></string>
 				<key>Comment</key>
-				<string>ToggleSipEntry.efi</string>
+				<string>UsbMouseDxe.efi</string>
 				<key>Enabled</key>
 				<true/>
 				<key>LoadEarly</key>
 				<false/>
 				<key>Path</key>
-				<string>ToggleSipEntry.efi</string>
+				<string>UsbMouseDxe.efi</string>
 			</dict>
 		</array>
 		<key>Input</key>
@@ -1307,14 +2377,14 @@
 			<key>TextRenderer</key>
 			<string>BuiltinGraphics</string>
 			<key>UIScale</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>UgaPassThrough</key>
 			<false/>
 		</dict>
 		<key>ProtocolOverrides</key>
 		<dict>
 			<key>AppleAudio</key>
-			<false/>
+			<true/>
 			<key>AppleBootPolicy</key>
 			<false/>
 			<key>AppleDebugLog</key>
@@ -1344,7 +2414,7 @@
 			<key>FirmwareVolume</key>
 			<true/>
 			<key>HashServices</key>
-			<false/>
+			<true/>
 			<key>OSInfo</key>
 			<false/>
 			<key>PciIo</key>
@@ -1363,7 +2433,7 @@
 			<key>EnableVmx</key>
 			<false/>
 			<key>ExitBootServicesDelay</key>
-			<integer>0</integer>
+			<integer>3000</integer>
 			<key>ForceOcWriteFlash</key>
 			<false/>
 			<key>ForgeUefiSupport</key>
